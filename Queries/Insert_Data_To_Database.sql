@@ -1,0 +1,2 @@
+COPY google_play_apps(app_name, app_id, category, rating, rating_count, size_of_app, minimum_android, developer_id, developer_website, developer_email, released, last_updated, content_rating, privacy_policy, ad_supported, in_app_purchases, editors_choice, install_count, price_usd)
+FROM 'InsertYourPath\Cleaned_dataset.csv' DELIMITER ',' CSV HEADER;
